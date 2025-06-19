@@ -50,6 +50,7 @@ streamlit run app.py
 The system consists of two main components:
 
 1. **Document Processing Pipeline**:
+
    - Document conversion to text/markdown
    - Structured data extraction via LLM
    - Text chunking and embedding
@@ -58,4 +59,18 @@ The system consists of two main components:
    - Multi-step workflow using LangGraph
    - Document retrieval based on questions
    - Relevance assessment of retrieved documents
-   - Answer generation with grounding checks 
+   - Answer generation with grounding checks
+
+## Design
+
+![diagram](https://github.com/user-attachments/assets/4f630302-4a91-4135-855b-af3cd8c773c4)
+
+## Output 
+
+![output1](https://github.com/user-attachments/assets/d238a0f1-0ed5-4583-8054-38a12329c22e)
+![output2](https://github.com/user-attachments/assets/76ef33ea-f1eb-43a4-90bd-4efb4bc5aef3)
+
+## Our Research Paper 
+
+[DastabaseAI_paper.pdf](https://github.com/user-attachments/files/20825855/DastabaseAI_paper.pdf)
+
